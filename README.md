@@ -18,11 +18,10 @@ apvh {sitename} {directory} {ssl}
 sitename: Sitename containing the .domain name.
 directory: The full (absolute) path to the site directory.
 ssl: Use ssl to have the virtual host for SSL else empty.
+
 🧠 Remember:
 The site directory name must not contain trailing slahes (\ or /).
 This script assumes that you have added the virtual host entry to hosts (C:\Windows\System32\drivers\etc) file and in alt_names section in the openssl template file (for me: F:\laragon\usr\tpl\openssl.conf.tpl)
-📃 Acronyms:
-apvh === Apache virtual host.
-India == Indians never delay in anything.
+
 😊 Happy coding!
 🙏
